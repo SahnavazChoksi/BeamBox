@@ -1,18 +1,18 @@
 {
-  "name": "shareserver",
+  "name": "beambox",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Sahnavaz",
+  "license": "MIT",
+  "description": "BeamBox – Simple file sharing server",
   "dependencies": {
-    "archiver": "^7.0.1",
     "express": "^5.2.1",
     "multer": "^2.0.2",
-    "serve-index": "^1.9.1"
+    "serve-index": "^1.9.1",
+    "archiver": "^7.0.1"
   }
 }
